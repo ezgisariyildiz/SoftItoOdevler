@@ -51,7 +51,7 @@ namespace odev
             //}
             #endregion
 
-            #region (while)ayı kadar düz versiyon
+            #region (while)sayı kadar düz versiyon
             //Console.WriteLine("Sayı girin: ");
             //int sayi = int.Parse(Console.ReadLine());
             //int i = 1;
@@ -81,7 +81,7 @@ namespace odev
             //}
             #endregion
 
-            #region (while)ağa yatık yıldız
+            #region (while)sağa yatık yıldız
 
             //int i = 0;
 
@@ -245,19 +245,19 @@ namespace odev
 
             #region (while)para çekme, para gönderme, bakiye kontrolü, çıkış, 3 kere giriş hakkı
 
-            int bakiye = 500;
+            int bakiye = 1000;
             int secim = 0;
             int hak = 3;
             int sifre = 0000;
 
         y:
             Console.WriteLine("Lütfen şifrenizi giriniz: ");
-            int password = int.Parse(Console.ReadLine());
+            int giris = int.Parse(Console.ReadLine());
 
             while (hak > 0)
             {
 
-                if (password == sifre)
+                if (giris == sifre)
                 {
                 x:
                     Console.WriteLine("1) Para Çekme \n2) Para Gönderme \n3) Bakiye Kontrolü \n4) Çıkış");
@@ -301,7 +301,7 @@ namespace odev
                     break;
                 }
 
-                while (password != sifre)
+                while (giris != sifre)
                 {
                     Console.WriteLine("Yanlış şifre, lütfen tekrar deneyin. Kalan hakkınız: " + (hak - 1));
                     hak--;
