@@ -1,0 +1,7 @@
+C:\DersNotlari\SoftIto\odev\bin\Debug\odev.exe.config
+C:\DersNotlari\SoftIto\odev\bin\Debug\odev.exe
+C:\DersNotlari\SoftIto\odev\bin\Debug\odev.pdb
+C:\DersNotlari\SoftIto\odev\obj\Debug\odev.csproj.AssemblyReference.cache
+C:\DersNotlari\SoftIto\odev\obj\Debug\odev.csproj.CoreCompileInputs.cache
+C:\DersNotlari\SoftIto\odev\obj\Debug\odev.exe
+C:\DersNotlari\SoftIto\odev\obj\Debug\odev.pdb
